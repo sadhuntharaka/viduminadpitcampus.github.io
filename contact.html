@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Vidumina DP IT Campus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("aSVp_sdDzQfKY7T2v");
+        })();
+    </script>
+</head>
+<body>
+   <header>
+    <div class="logo">
+        <img src="images/logo.png" alt="Vidumina DP IT Campus">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="announcements.html">Announcements</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        <section class="contact-hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-text">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you</p>
+            </div>
+        </section>
+        <section class="contact-content">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>If you have any questions or need further information, feel free to contact us through any of the methods below.</p>
+                <div class="contact-methods">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <h3>Call Us</h3>
+                        <p>+94 77 123 4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <h3>Email Us</h3>
+                        <p>info@vidumina.dp</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3>Visit Us</h3>
+                        <p>123 Vidumina Road, Colombo, Sri Lanka</p>
+                    </div>
+                </div>
+                <h2>Send Us a Message</h2>
+                <form class="contact-form" id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Vidumina DP IT Campus. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

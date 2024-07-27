@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Vidumina DP IT Campus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Vidumina DP IT Campus">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="courses-hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-text">
+                <h1>Our Courses</h1>
+                <p>Explore the variety of courses we offer</p>
+            </div>
+        </section>
+        <section class="courses-content">
+            <div class="container">
+                <h2>Our Courses</h2>
+                <div class="course-list">
+                    <div class="course-item" onclick="toggleCourseDetails('course1')">
+                        <h3>Diploma in Information Technology</h3>
+                        <p>Our Diploma in Information Technology provides students with foundational knowledge and skills in IT, preparing them for various roles in the tech industry.</p>
+                    </div>
+                    <div class="course-details" id="course1">
+                        <h4>Course Details</h4>
+                        <p>This diploma covers topics such as programming, database management, networking, and more. Students will gain hands-on experience through labs and projects.</p>
+                    </div>
+                    <div class="course-item" onclick="toggleCourseDetails('course2')">
+                        <h3>Web Development</h3>
+                        <p>Learn to build dynamic and responsive websites using the latest technologies. This course covers HTML, CSS, JavaScript, and popular frameworks.</p>
+                    </div>
+                    <div class="course-details" id="course2">
+                        <h4>Course Details</h4>
+                        <p>This course includes comprehensive modules on front-end and back-end development, equipping students with the skills to build full-stack web applications.</p>
+                    </div>
+                    <div class="course-item" onclick="toggleCourseDetails('course3')">
+                        <h3>Software Engineering</h3>
+                        <p>This course offers in-depth knowledge in software development, covering various programming languages, software design, and project management.</p>
+                    </div>
+                    <div class="course-details" id="course3">
+                        <h4>Course Details</h4>
+                        <p>Students will learn about software lifecycle models, design patterns, and best practices in software engineering, preparing them for careers as software engineers.</p>
+                    </div>
+                    <div class="course-item" onclick="toggleCourseDetails('course4')">
+                        <h3>Data Science</h3>
+                        <p>Discover the world of data science and analytics. Learn to work with data, perform statistical analyses, and build predictive models using Python and R.</p>
+                    </div>
+                    <div class="course-details" id="course4">
+                        <h4>Course Details</h4>
+                        <p>This course covers data wrangling, visualization, machine learning, and statistical modeling, providing students with the skills to become data scientists.</p>
+                    </div>
+                    <div class="course-item" onclick="toggleCourseDetails('course5')">
+                        <h3>Cyber Security</h3>
+                        <p>Gain expertise in protecting systems and networks from cyber threats. This course covers network security, ethical hacking, and information security management.</p>
+                    </div>
+                    <div class="course-details" id="course5">
+                        <h4>Course Details</h4>
+                        <p>Students will learn about threat detection, risk management, and how to implement security measures to protect organizations from cyber attacks.</p>
+                    </div>
+                    <div class="course-item" onclick="toggleCourseDetails('course6')">
+                        <h3>Artificial Intelligence</h3>
+                        <p>Explore the fundamentals of AI, including machine learning, neural networks, and natural language processing, and learn to build intelligent systems.</p>
+                    </div>
+                    <div class="course-details" id="course6">
+                        <h4>Course Details</h4>
+                        <p>This course covers AI techniques, tools, and applications, providing students with the knowledge to develop AI solutions for various industries.</p>
+                    </div>
+                    <div class="course-item" onclick="toggleCourseDetails('course7')">
+                        <h3>Mobile Application Development</h3>
+                        <p>Learn to develop mobile applications for Android and iOS using the latest tools and technologies. This course covers UI/UX design, programming, and app deployment.</p>
+                    </div>
+                    <div class="course-details" id="course7">
+                        <h4>Course Details</h4>
+                        <p>This course teaches students how to design and develop mobile apps, from concept to deployment, using platforms such as React Native and Flutter.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Vidumina DP IT Campus. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
